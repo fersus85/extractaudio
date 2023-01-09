@@ -25,7 +25,3 @@ def convert_to_mp3(file):
     #
     audio = video.audio
     audio.write_audiofile(f'result/{video_file.stem}.mp3')
-
-
-
-
